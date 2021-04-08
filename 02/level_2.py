@@ -18,10 +18,7 @@ for character in mess:
     ranking[character] += 1
 
 # concatenate the characters that only appear once
-magic_word = ''
-for key, value in ranking.items():
-    if value == 1:
-        magic_word += key
+magic_word = ''.join([c for c in ranking if ranking[c] == 1])
 
 # solution
 print(f'http://www.pythonchallenge.com/pc/def/{magic_word}.html')

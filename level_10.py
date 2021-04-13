@@ -1,5 +1,5 @@
 """
-Python Challenge - Level 10 - connect the dots
+Python Challenge - Level 10 - what are you looking at?
 """
 
 
@@ -25,3 +25,5 @@ a = ['1']
 for i in range(30):
     a.append(get_next_member(a[-1]))
 print(f'len(a[30]) = {len(a[30])}')
+
+print('http://www.pythonchallenge.com/pc/def/5808.html')
